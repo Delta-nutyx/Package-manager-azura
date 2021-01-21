@@ -2,6 +2,8 @@
 Comprendre le fonctionnement d'un pm afin d'en dev un :)
 Azura n'est qu'un test et n'a pas pour vocation d'être utilisé en dehors de mon utilisation privé et personnelle, cependant le code est accessible à tous et tout le monde peut y contribuer.
 Si toutefois vous souhaitez l'utiliser, je ne serai nullement responsable d'un plantage ou autre qui pourrait causer des problèmes irréversible sur votre os MERCI DE NE PAS L'UTILISER EN PRODUCTION :) .
+Concernant la contribution, sachez que Azura est ouvert à tous, si vous souhaitez contribuer, envoyez moi un message privé sur la messagerie telegram.
+Les nouveaux contributeurs n'auront dans un premier temps seulement accès à la branche testing.
 
 # Remerciements
 
