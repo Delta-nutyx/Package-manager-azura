@@ -13,4 +13,4 @@ Si le projet prend de l'ampleur il sera certainement porté sur les distribs à 
 
 - Lomig & Tux pour l'apport de ses connaissances au projet .
 - Alpha, pour ses rapports de bugs qui ont aidée à faire progresser le projet .
-- Tnut pour ses conseils précieux.
+- Tnut pour ses précieux conseils.
