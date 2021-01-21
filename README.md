@@ -5,6 +5,10 @@ Si toutefois vous souhaitez l'utiliser, je ne serai nullement responsable d'un p
 Concernant la contribution, sachez que Azura est ouvert à tous, si vous souhaitez contribuer, envoyez moi un message privé sur la messagerie telegram.
 Les nouveaux contributeurs n'auront dans un premier temps seulement accès à la branche testing.
 
+# Compatibilité 
+
+Azura sera compatible avec les formats de paquets arch et nutyx dans un premier temps.
+Si le projet prend de l'ampleur il sera certainement porté sur les distribs à base debian .
 # Remerciements
 
 - Lomig & Tux pour l'apport de ses connaissances au projet .
