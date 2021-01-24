@@ -22,3 +22,8 @@ Si le projet prend de l'ampleur il sera certainement porté sur les distribs à 
 - Lomig & Tux pour l'apport de ses connaissances au projet .
 - ALpHa, pour ses rapports de bugs qui ont aidé à faire progresser le projet .
 - Tnut pour ses précieux conseils.
+
+# English 
+
+  # Package-manager-azura 
+  I will understand how package manager is working.
