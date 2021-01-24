@@ -7,8 +7,8 @@ Les nouveaux contributeurs n'auront dans un premier temps seulement accès à la
 
 # Compatibilité 
 
-Azura sera compatible avec les formats de paquets arch et nutyx dans un premier temps.
-Si le projet prend de l'ampleur il sera certainement porté sur les distribs à base debian .
+Azura sera compatible avec les formats de paquets nutyx et fedora dans un premier temps.
+Si le projet prend de l'ampleur il sera certainement porté sur les distribs à base debian et arch .
 # Remerciements
 
 - Lomig & Tux pour l'apport de ses connaissances au projet .
