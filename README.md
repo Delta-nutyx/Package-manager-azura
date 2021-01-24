@@ -5,6 +5,9 @@ Si toutefois vous souhaitez l'utiliser, je ne serai nullement responsable d'un p
 Concernant la contribution, sachez que Azura est ouvert à tous, si vous souhaitez contribuer, envoyez moi un message privé sur la messagerie telegram.
 Les nouveaux contributeurs n'auront dans un premier temps seulement accès à la branche testing.
 
+# NCR
+Dans un premier temps, il faut savoir que Azura cela seulement prévu et développé pour la gestion du NCR sous nutyx.
+Mais pourquoi pas à terme le rendre général et même multiplateforme.
 # Compatibilité 
 
 Azura sera compatible avec les formats de paquets nutyx et fedora dans un premier temps.
