@@ -8,10 +8,15 @@ Les nouveaux contributeurs n'auront dans un premier temps seulement accès à la
 # NCR
 Dans un premier temps, il faut savoir que Azura cela seulement prévu et développé pour la gestion du NCR sous nutyx.
 Mais pourquoi pas à terme le rendre général et même multiplateforme.
+
+# Langage utilisé
+Azura sera developpé en python.
+
 # Compatibilité 
 
 Azura sera compatible avec les formats de paquets nutyx et fedora dans un premier temps.
 Si le projet prend de l'ampleur il sera certainement porté sur les distribs à base debian et arch .
+
 # Remerciements
 
 - Lomig & Tux pour l'apport de ses connaissances au projet .
