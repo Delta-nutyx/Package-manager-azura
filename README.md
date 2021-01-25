@@ -12,7 +12,7 @@ Mais pourquoi pas à terme le rendre général et même le rendle compatible ave
 # Langage utilisé
 Azura sera developpé en python.
 
-# Remerciements
+# Remerciements (section à améliorer : contributeurs manquants ).
 
 - Lomig & Tux pour l'apport de ses connaissances au projet .
 - ALpHa, pour ses rapports de bugs qui ont aidé à faire progresser le projet .
