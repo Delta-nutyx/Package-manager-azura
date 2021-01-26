@@ -10,7 +10,7 @@ Dans un premier temps, il faut savoir que Azura cela seulement prévu et dévelo
 Mais pourquoi pas à terme le rendre général et même le rendle compatible avec plusieurs plateforme.
 
 # Langage utilisé
-Azura sera developpé en python.
+Azura sera developpé en C++.
 
 # Remerciements (section à améliorer : contributeurs manquants ).
 
