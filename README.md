@@ -7,7 +7,7 @@ Les nouveaux contributeurs n'auront dans un premier temps seulement accès à la
 
 # NCR
 Dans un premier temps, il faut savoir que Azura cela seulement prévu et développé pour la gestion du NCR sous nutyx.
-Mais pourquoi pas à terme le rendre général et même le rendle compatible avec plusieurs plateforme.
+Mais pourquoi pas à terme le rendre général permettant à la fois la gestion des paquets nutyx et ceux du NCR 
 
 # Langage utilisé
 Azura sera developpé en C++.
