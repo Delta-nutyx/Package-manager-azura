@@ -3,6 +3,7 @@
 help () {
         echo -e " azura install : installer des paquets "
         echo -e " azura compile : compile un logiciel depuis son pkgfile "
+        echo -e " azura remove : supprime le paquet en question "
 # Ajout d'un paquet provenant du NCR 
 
 
