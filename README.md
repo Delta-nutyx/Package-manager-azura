@@ -17,4 +17,5 @@ Azura est développé en bash.
 - Lomig & Tux pour l'apport de ses connaissances au projet .
 - ALpHa, pour ses rapports de bugs qui ont aidé à faire progresser le projet .
 - Tnut pour ses précieux conseils.
+- Rems ou Rems28 pour sa patience qui a permis de donner naissance à Azura. 
 
