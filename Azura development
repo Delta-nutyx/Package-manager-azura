@@ -1,9 +1,10 @@
 #! /bin/bash
 # Azura : Complément à cards permettant de gérer les paquets provenant du NCR ( Nutyx Community Repository ).
-help 
-echo " azura install : installer des paquets "
+help () {
+        echo -e " azura install : installer des paquets "
+        echo -e " azura compile : compile un logiciel depuis son pkgfile "
 # Ajout d'un paquet provenant du NCR 
-echo "Êtes vous sūr de vouloir poursuivre"
+
 
 
 # Suppression d'un paquet provenant du NCR 
