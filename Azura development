@@ -11,14 +11,19 @@ function help () {
 }
 
 # Ajout d'un paquet provenant du NCR 
+function install () { 
+         
 
 
 
 # Suppression d'un paquet provenant du NCR 
+function remove 
 
 # Afficher des informations sur le paquet sélectionné.
+function info 
 
 # Chercher un paquet dans le dépôt NCR 
+function search 
 
 #
 
