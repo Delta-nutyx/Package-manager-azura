@@ -17,13 +17,13 @@ function install () {
 
 
 # Suppression d'un paquet provenant du NCR 
-function remove 
+function remove () { 
 
 # Afficher des informations sur le paquet sélectionné.
-function info 
+function info () {
 
 # Chercher un paquet dans le dépôt NCR 
-function search 
+function search () { 
 
 #
 
