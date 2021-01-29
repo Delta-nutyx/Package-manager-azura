@@ -38,16 +38,6 @@ function install () {
 	ldconfig -r /
 }
 
-
-
-
-
-
-
-         
-
-
-
 # Suppression d'un paquet provenant du NCR 
 function remove () { 
 
