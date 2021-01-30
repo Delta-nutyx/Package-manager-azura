@@ -1,7 +1,7 @@
 #! /bin/bash
-# Azura : Complément à cards permettant de gérer les paquets provenant du NCR ( Nutyx Community Repository ).
+# Azura : A cards complement build for manage package from the NCR( Nutyx Community Repository ).
 
-# Fonction help 
+# Function help 
 function help () {
         echo -e " azura install : installer des paquets "
         echo -e " azura compile : compile un logiciel depuis son pkgfile "
@@ -9,39 +9,30 @@ function help () {
         echo -e " azura info : affiche les informations connu sur le pkgfile "
 }
 
-# Ajout d'un paquet provenant du NCR 
+# Add a package from the NCR 
 function install () { 
         echo " Verification de la présence des outils de dev "
         echo " Tous les outils sont bien présents, début du processus d'Installation, veuillez patienter "
 	
 
-# Suppression d'un paquet provenant du NCR 
+# Remove a package from the NCR 
 function remove () { 
 
-# Afficher des informations sur le paquet sélectionné.
+# Show information about the package 
 function info () {
 
-# Chercher un paquet dans le dépôt NCR 
+# Search a package in the NCR 
 function search () { 
 
-# Arrêt si il y a une erreur 
+# Stop if error 
 function stop_if_error(){
 	if [[ $2 != 0 ]]; then
 		write_log "${1} : Code Erreur $3"
 		exit $3
-	                        fi
-				install_package ${@}
-				exit ;;
-			del)
-				shift
-				if [[ $# = 0 ]]; then
-					echo "Vous devez spécifier un logiciel à supprimer"
-					help
-					exit
-
+	                      
 }
 
-# Si erreur de syntaxe : afficher l'aide 
+# If error on syntax show help 
 function main(){
 	if [[ $# = 0 ]];then
 		help
