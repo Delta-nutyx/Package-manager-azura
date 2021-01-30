@@ -31,6 +31,7 @@ function stop_if_error(){
 		exit $3
 	fi
 }
+
 # Si erreur de syntaxe : afficher l'aide 
 function main(){
 	if [[ $# = 0 ]];then
