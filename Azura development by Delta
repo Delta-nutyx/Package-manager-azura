@@ -36,4 +36,7 @@ function main(){
 		help
 }
 
-
+# Fonction main 
+function main () {
+         if [[ $# = 0 ]];then
+		help
