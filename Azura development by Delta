@@ -11,6 +11,8 @@ function help () {
 
 # Ajout d'un paquet provenant du NCR 
 function install () { 
+        echo " Verification de la présence des outils de dev "
+        echo " Tous les outils sont bien présents, début du processus d'Installation, veuillez patienter "
 	
 
 # Suppression d'un paquet provenant du NCR 
