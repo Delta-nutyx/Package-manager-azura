@@ -41,3 +41,5 @@ function main () {
          if [[ $# = 0 ]];then
 		help
          fi 
+
+main $@
