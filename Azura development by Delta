@@ -12,31 +12,7 @@ function help () {
 
 # Ajout d'un paquet provenant du NCR 
 function install () { 
-	if [ -z $1 ]; then
-		_information $AZURA_PREFIX "Installation du paquet ${AZURA_PACKAGE}"
-		mkdir $AZURA_DB/$AZURA_PACKAGE
-		if [ $? != 0 ]; then
-			_error $AZURA_PREFIX "Il est impossible de créer le dossier du paquet dans la base de donnée"
-			exit 4
-		fi
-		_information $AZURA_PREFIX "Décompression du paquet binaire"
-		tar --no-same-owner -xaf $AZURA_PKG/$AZURA_PACKAGE/$AZURA_PACKGE*.tar.zst -C /
-		mv /.PACKTREE $YAMU_DB/$YAMU_PACKAGE
-		mv /.PACKMETA $YAMU_DB/$YAMU_PACKAGE
-	else
-		_information $YAMU_PREFIX "Installation du paquet $1"
-		mkdir $YAMU_DB/$1
-		if [ $? != 0 ]; then
-			_error $YAMU_PREFIX "Il est impossible de créer le dossier du paquet dans la base de donnée"
-			exit 4
-		fi
-		_information $YAMU_PREFIX "Décompression du paquet binaire"
-		tar --no-same-owner -xaf $YAMU_PKG/$1/$YAMU_PACKGE*.tar.zst -C /
-		mv /.PACKTREE $YAMU_DB/$1
-		mv /.PACKMETA $YAMU_DB/$1
-	fi
-	ldconfig -r /
-}
+	
 
 # Suppression d'un paquet provenant du NCR 
 function remove () { 
