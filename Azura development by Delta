@@ -47,5 +47,12 @@ function info () {
 # Chercher un paquet dans le dépôt NCR 
 function search () { 
 
-#
+# Arrêt si il y a une erreur 
+
+function stop_if_error(){
+	if [[ $2 != 0 ]]; then
+		write_log "${1} : Code Erreur $3"
+		exit $3
+	fi
+}
 
