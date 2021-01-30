@@ -29,7 +29,16 @@ function stop_if_error(){
 	if [[ $2 != 0 ]]; then
 		write_log "${1} : Code Erreur $3"
 		exit $3
-	fi
+	                        fi
+				install_package ${@}
+				exit ;;
+			del)
+				shift
+				if [[ $# = 0 ]]; then
+					echo "Vous devez spécifier un logiciel à supprimer"
+					help
+					exit
+
 }
 
 # Si erreur de syntaxe : afficher l'aide 
