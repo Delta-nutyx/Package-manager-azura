@@ -32,3 +32,9 @@ function stop_if_error(){
 	fi
 }
 
+function main(){
+	if [[ $# = 0 ]];then
+		help
+}
+
+
