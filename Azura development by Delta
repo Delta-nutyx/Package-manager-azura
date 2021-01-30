@@ -38,7 +38,7 @@ function main(){
 		help
 }
 
-# Fonction main 
+# Function main 
 function main () {
          if [[ $# = 0 ]];then
 		help
