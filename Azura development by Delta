@@ -3,14 +3,13 @@
 
 # Function help 
 function help () {
-        echo -e " azura install : install packages "
         echo -e " azura compile : compile a software from its pkgfile "
         echo -e " azura remove : remove the package "
         echo -e " azura info : show the information about the package "
 }
 
 # Add a package from the NCR 
-function install () { 
+function compile () { 
         echo " Verification of the cards devel utils "
         echo " All cards devel programs are installed, start the installation process, please wait "
 	
