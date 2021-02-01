@@ -40,4 +40,6 @@ function stop_if_error(){
 function main () {
 if [ "$OPT_MODE" = "compile" ]; then
 		compile
+if [ "$OPT_MODE" = "help" ]; then
+		help
 main $@
