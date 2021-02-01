@@ -43,3 +43,6 @@ if [ "$OPT_MODE" = "compile" ]; then
 elif [ "$OPT_MODE" = "help" ]; then
 	        help
 main $@
+
+# End of Azura code.
+# Thanks to all the contributors 
