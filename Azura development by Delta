@@ -39,7 +39,7 @@ function stop_if_error(){
 # Function main 
 function main () {
 if [ "$OPT_MODE" = "compile" ]; then
-	        compile
-if [ "$OPT_MODE" = "help" ]; then
-		help
+	       compile
+elif [ "$OPT_MODE" = "help" ]; then
+	        help
 main $@
