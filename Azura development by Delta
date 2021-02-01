@@ -32,16 +32,10 @@ function stop_if_error(){
 }
 
 # If error on syntax show help 
-function main(){
 	if [[ $# = 0 ]];then
 		help
 }
 
 # Function main 
 function main () {
-         if [[ $# = 0 ]];then
-		help
-       
-
-
 main $@
