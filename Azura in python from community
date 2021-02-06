@@ -19,15 +19,21 @@ def compile () :
 # Function update_database 
 def update_database 
   print ("Mise à jour de la base de donnée")
+# About
+def about () :
+  print ("Azura is devel by NuTyX community and Delta (a member of NuTyX team), it will manage all package from the NCR")
 
 # If error of syntax show help
   
 # Function 
 def main () :
+  if args == "about":
+    about
   if args == "update_data":
     update_database
   if args == "help":
-        help
+    help
+        
  
         
   
