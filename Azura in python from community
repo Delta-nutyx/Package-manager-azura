@@ -24,8 +24,10 @@ def update_database
   
 # Function 
 def main () :
+  if args == "update_data":
+    update_database
   if args == "help":
-        help(args[1])
+        help
  
         
   
