@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+
+# This program is devel by The NuTyX Community, it's a translation to Azura official code in Pyhton.
+# Azura it's by and for the community, everybody can contribute or fork the code 
+
+# This is a test to Azura tools syncronisation of a database in python, if this is a good tools maybe it will be add on official devel branche 
+
+# Help for azura 
+def help () :
+  print ("azura sync : syncronyse database from NCR") 
+  print ("azura compile : compile the pkgfile")
+  print ("azura remove : remove the package")
+
+# Function compile 
+def compile () : 
+  print ("Verification de la présence des principaux outils de cards nécessaire pour cette opération")
+  print (" Tous les outils de cards.devel sont présents, début de l'opération")
+
+# Function update_database 
+def update_database 
+  print ("Mise à jour de la base de donnée")
+
+# If error of syntax show help
+  
+# Function 
+def main () :
+  if args == "help":
+        help(args[1])
+ 
+        
+  
+  
+  # End of file (test in python language)
+  # Thanks to all the contributors 
+  
