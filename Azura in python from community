@@ -27,6 +27,8 @@ def about () :
   
 # Function 
 def main () :
+  if args == "compile":
+    compile
   if args == "about":
     about
   if args == "update_data":
