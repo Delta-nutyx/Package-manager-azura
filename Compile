@@ -1,0 +1,8 @@
+#! /bin/bash
+
+# Add a package from the NCR 
+function compile () { 
+        echo " Verification of the cards devel utils "
+        echo " All cards devel programs are installed, start the installation process, please wait "
+}
+       
