@@ -10,7 +10,7 @@ Dans un premier temps, il faut savoir que Azura cela seulement prévu et dévelo
 Mais pourquoi pas à terme le rendre général permettant à la fois la gestion des paquets nutyx et ceux du NCR 
 
 # Langage utilisé
-Azura est développé en bash.
+Azura est développé en python mais il est possible de poursuivre ou de débuter le développement d'Azura dans le langage de votre choix dans le dépôt Azura build community.
 
 # Remerciements (section à améliorer : contributeurs manquants ).
 
