@@ -20,6 +20,10 @@ def update_database ():
 def about ():
   print ("Azura is devel by NuTyX community and Delta (a member of NuTyX team), it will manage all package from the NCR")
 
+def remove (): 
+    print ("Please wait few seconds")
+    
+
 # If error of syntax show help
   
 # Function 
