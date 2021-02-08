@@ -26,9 +26,9 @@ def about () :
 def main () :
   if args == "about":
     about
-  if args == "update_data":
+  elif args == "update_data":
     update_database
-  if args == "help":
+  elif args == "help":
     help
         
  
