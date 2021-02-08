@@ -7,9 +7,10 @@
 
 # Help for azura 
 def help () :
-  print ("azura sync : syncronyse database from NCR") 
+  print ("azura update_data : show data-base") 
   print ("azura compile : compile the pkgfile")
   print ("azura remove : remove the package")
+
 
 # Function update_database 
 def update_database 
