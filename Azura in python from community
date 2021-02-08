@@ -14,6 +14,7 @@ def help () :
 # Function update_database 
 def update_database 
   print ("Mise à jour de la base de donnée")
+  print ("The azura devel team doesn't have finish the program. Please go at the following link to discover new releases, features and news about the NCR's packages")
 # About
 def about () :
   print ("Azura is devel by NuTyX community and Delta (a member of NuTyX team), it will manage all package from the NCR")
