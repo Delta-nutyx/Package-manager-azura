@@ -6,24 +6,24 @@
 # This is a test to Azura tools syncronisation of a database in python, if this is a good tools maybe it will be add on official devel branche 
 
 # Help for azura 
-def help () :
+def help ():
   print ("azura update_data : show data-base") 
   print ("azura compile : compile the pkgfile")
   print ("azura remove : remove the package")
 
 
 # Function update_database 
-def update_database () :
+def update_database ():
   print ("Mise à jour de la base de donnée")
   print ("The azura devel team doesn't have finish the program. Please go at the following link to discover new releases, features and news about the NCR's packages: https://docs.google.com/document/d/1dwCz1UFBhjnrxwuYiEUMUQGnlfNslhX1Bt0FNT9QMPc/edit?usp=sharing ")
 # About
-def about () :
+def about ():
   print ("Azura is devel by NuTyX community and Delta (a member of NuTyX team), it will manage all package from the NCR")
 
 # If error of syntax show help
   
 # Function 
-def main () :
+def main ():
   if args == "about":
     about
   elif args == "update_data":
