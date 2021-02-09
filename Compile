@@ -6,5 +6,8 @@ function compile () {
         echo " All cards devel programs are installed, start the installation process, please wait "
 }
 
+function sync () {
+        
+
 
        
