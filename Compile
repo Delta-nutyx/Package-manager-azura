@@ -6,8 +6,5 @@ function compile () {
         echo " All cards devel programs are installed, start the installation process, please wait "
 }
 
-function sync () { 
-wget -c https://doc-00-64-docstext.googleusercontent.com/export/oijsntiq0rujqv1etq1vpm9n9g/alocpf4c5q0chp1tsd1q01itjs/1612873025000/102757307972229893407/102757307972229893407/1dwCz1UFBhjnrxwuYiEUMUQGnlfNslhX1Bt0FNT9QMPc?format=txt&id=1dwCz1UFBhjnrxwuYiEUMUQGnlfNslhX1Bt0FNT9QMPc&token=AC4w5VhB2VouLMuvshYfo7ulx0llDO9iFg:1612872944767&ouid=102757307972229893407&includes_info_params=true&inspectorResult=%7B%22pc%22:1,%22lplc%22:11%7D&dat=AJ7Y-hQ_lXKtSEKLOUR4YD-VFF5Xtx2tFDdOaduaKsnh7jz2gXeHaTL_5-4pNyDIiExphqoBFiZ5IPsQV3T2qK6-YkmEb_Or06AoRz6af13pyw3MOWr_1bXgZA72VDYC4FF9_m1tDBVFVe-s3CICRr8mj9Nj6-mE5NncDEvVPaJGNVkCbbje7oiw_xJYn_LyOTTX03_eZ5hpa4H3ac2xbK-HWKGq9Km5CWYrm9WvT8faCSmn_ncQLSFHc4P9skhWKkibVwg8-5M3DXac9USmMiXSIcb8o4yKh60IsCRh4Hv0Q0rkKgE5Ji8FegDhLNcoWa1pbXBKR6YhLYTce3gj-DDxBoZFKB6mZ6j4GVZKy5AbfELduupAdVfRZk0q9aKSJFmzsKAXF7aB_2mxxVnTKa-vQwqg3jOQCXNsCW9fTq5iwZFyRhiAFOVDmhw_4GieP1Kl4Hl5bqnKCPnMODlLX4Dct-1oewT52AheXa4hCBbOG2nwz91BeA0MB0AKfmvXXejZnZyM5rwQkoT5_-QsFgmVKFQteG1pHV_C3jOuDBBWIqODBzzTuOcPzrDOubgqwQWtf42D9qfTDxTk27ZrDml6lcauEPamgHzkH2cgPc20tg83vQ8ojy4xxKR9TLyTOgg6rtX7UxOIDZSnqLZOCJbkg5XhpA4y2ONFXtj3FA
-nano 
 
        
