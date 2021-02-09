@@ -7,7 +7,7 @@ function compile () {
 }
 
 function sync () {
-mkdir ~/Azura 
+        mkdir ~/Azura 
 
 }
         
