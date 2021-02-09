@@ -1,6 +1,7 @@
 #! /bin/bash
 
 function sync () {
+mkdir ~/Azura           
 
 
 
