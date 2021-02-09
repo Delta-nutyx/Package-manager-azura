@@ -1,4 +1,3 @@
 #! /bin/bash
 
-# function sync Azura 
-function sync () {
+
