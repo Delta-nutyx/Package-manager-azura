@@ -13,6 +13,9 @@ function help () {
 # Function download database 
 function database sync () {
 	cd ~/Azura
+        if [[ $? = 0 ]]
+        wget - c
+        if [[ $? = 1 ]]
 	mkdir ~/Azura
 	wget -c https://doc-00-64-docstext.googleusercontent.com/export/oijsntiq0rujqv1etq1vpm9n9g/qs4ocl98s19etqe519r4nm8ko8/1612969460000/102757307972229893407/102757307972229893407/1dwCz1UFBhjnrxwuYiEUMUQGnlfNslhX1Bt0FNT9QMPc?format=txt&id=1dwCz1UFBhjnrxwuYiEUMUQGnlfNslhX1Bt0FNT9QMPc&token=AC4w5Vhc3G5s5BcKSZ5UiooX4t51aaUmTQ:1612969424463&ouid=102757307972229893407&includes_info_params=true&inspectorResult=%7B%22pc%22:1,%22lplc%22:11%7D&dat=AJ7Y-hT0uKoZVUp7NPAd4s8H9Mh9uL1H2XoriVrEKbEAe34E3V22FrR-S7n8ON1nhh4weTKf1AB6uY9hGhrB4uieLlQVZXnXZiiSOrM2mGyLhjrMh0NQvmdMguRxCZh9AdvjoXjz26PCnWigH9GWsS-deUQkG_2rcjFROwNG9n3pZMbIl2KuzJINDfBZrk08fOZDfj-yj5YLmxEt_4x8wtoJuSQfDlbMgBZr8VrlJuu3793Osr834WdKOoxVQKciTAO2EQG_hSrmD1OGjC7R9N1P4us-Esf_8Qc5XHmy3aBqddNWI19bpCi5bimkZp-jWmnpGf2cUq75uW52A2zYbFyroIgVUiMTw3mi7N_1b1qqYZOQh1yOfwuyt22m8RH5MU_VgqAI8ahxdDTx-3tAyIGOaad0Knn4dDpwy1x35iJjYc46AoXyqyY_hguAhbebrWSlQsNa_zks85UmAOtJIQZCOoYjGwO1BI-kGV79vSbtp6k7ysbyhFFpWanArKyemBdPQsm5fhdwI-qkeMrMIzKKnHg0bb1b7d-dPrJlY9fU3Fb9k3roFaPOd3Hn-kZ-xEkbbpBHgwtuXBtV0SsQ3sqai2tuPlXsg-zdIsg_9Jbo1KNNcinDXgQXCaYWaCcahxGa3LTs-A6HkqjLRHo-LLdHGXdUe9G6bal2Qz5zag
 
