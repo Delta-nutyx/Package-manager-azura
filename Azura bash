@@ -24,6 +24,8 @@ function compile () {
         case ${reponse} in
        [oO][uU][iI]|[oO])
               echo " Please wait few second "
+              # Il y aura des trucs avant 
+              echo "Done"
               exit 
               ;;
         [nN][oO][nN]|[nN])
@@ -34,7 +36,7 @@ function compile () {
                echo "Choix incorrect"
                exit 
                 ;;	
-               echo "Done"
+               
 }
 	
 
