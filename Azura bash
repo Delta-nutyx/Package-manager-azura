@@ -37,7 +37,8 @@ function compile () {
                echo "Choix incorrect"
                exit 
                 ;;	
-               
+
+esac                
 }
 	
 
