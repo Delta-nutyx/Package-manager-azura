@@ -1,7 +1,7 @@
 #! /bin/bash
 # Azura : A cards complement build for manage package from the NCR( Nutyx Community Repository ).
 # It's devel by Delta an old member of NuTyX devel team
-# Warning this code may be unstable
+# Warning this code may be unstable it's a code based on the code of community 
 
 # Function help 
 function help () {
