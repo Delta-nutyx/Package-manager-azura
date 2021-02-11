@@ -83,9 +83,9 @@ function main () {
         elif [ "$OPT_MODE" = "help" ]; then
 	        help
         
-	
+	fi 
 main $@
-
+}
 # End of Azura code.
 # Thanks to all the contributors 
         
