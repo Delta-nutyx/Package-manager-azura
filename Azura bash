@@ -42,7 +42,7 @@ function remove () {
                echo "Choix incorrect"
                exit 
                 ;;
-         if OUI 
+         
          
 esac
 }
