@@ -84,8 +84,8 @@ function main () {
 	        help
         
 	fi 
-main $@
 }
+main @$
 # End of Azura code.
 # Thanks to all the contributors 
         
