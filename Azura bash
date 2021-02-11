@@ -68,21 +68,20 @@ function info () {
 # Search a package in the NCR 
 function search () { 
 
-
-# If error on syntax show help 
-	if [[ $# = 0 ]];then
-		help
 }
 
 # Function main 
 function main () {
         if [ "$OPT_MODE" = "compile" ]; then
                compile 
+
 	if [[ $# = 0 ]];then
 		help
 	       
         elif [ "$OPT_MODE" = "help" ]; then
 	        help
+        
+	
 main $@
 
 # End of Azura code.
