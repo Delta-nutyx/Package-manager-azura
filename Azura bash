@@ -28,6 +28,7 @@ function database-sync () {
 # Add a package from the NCR 
 function compile () { 
         echo " Verification of the cards devel utils "
+# La commande n'est pas la bonne il faudra chercher sur le wiki de nutyx 
 	cards search cards.devel
 	if [[$? = 1]]
 		cards install cards.devel 
