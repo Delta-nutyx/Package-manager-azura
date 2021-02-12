@@ -90,11 +90,16 @@ function main () {
 # Si rien n'est tapé afficher l'aide 
 	if [[ $# = 0 ]];then
 		help
+	fi
+	
 # Si l'user tape help, affiche l'aide 	       
         if [ "$OPT_MODE" = "help" ]; then
 	        help
+	fi
+	
 	if [ "$OPT_MODE" = "sync" ]; then
 		database-sync
+	fi
 		
 	
 	
