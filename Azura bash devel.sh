@@ -59,7 +59,7 @@ function remove () {
                 ;;
 
 # ferme le case
-esac
+        esac
 }
 
 # Show information about the package
