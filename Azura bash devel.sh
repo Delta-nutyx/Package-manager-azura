@@ -17,7 +17,7 @@ function help () {
         echo -e " azura remove : remove the package "
         echo -e " azura info : show the information about the package "
 	echo -e "azura sync : a page with some informations about packages available"
-	echo -e "If you want to have more information about this pm, please execute 'azura about' or read the documentation (not available for the moment)
+	echo -e "If you want to have more information about this pm, please execute 'azura about' or read the documentation (not available for the moment)"
 }
 
 
