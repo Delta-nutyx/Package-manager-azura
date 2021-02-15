@@ -26,7 +26,7 @@ function compile () {
         echo -e "Nous vérifions que le répertoire de build de azura est propre"
         cd /var/cache/azura
         if [[$? = 1]]
-               mkdir /var/cache/azura
+              mkdir /var/cache/azura
         rm -rf /var/cache/azura/*
         # Nous allons copier votre pkgfile dans notre fichier de build
         cp $fichier /var/cache/azura
