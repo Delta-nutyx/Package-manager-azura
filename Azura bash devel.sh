@@ -83,9 +83,9 @@ function main () {
 	fi
 
 # Si l'user tape help, affiche l'aide
-  if [ "$OPT_MODE" = "help" ]; then
+        if [ "$OPT_MODE" = "help" ]; then
 	        help
-  fi
+        fi
 
 # Data sync
 
