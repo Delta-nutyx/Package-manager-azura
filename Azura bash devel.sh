@@ -77,6 +77,7 @@ function main () {
 # Si l'user tape compile, lance la commande compile
         if [ "$OPT_MODE" = "compile $fichier $name" ]; then
 			compile
+        if
 # Si rien n'est tapé afficher l'aide
 	if [[ $# = 0 ]];then
 		help
