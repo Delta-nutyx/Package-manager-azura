@@ -38,7 +38,7 @@ function compile () {
         fi
         pkgmk -d $name
         pkgadd $name
-
+}
 # Remove a package
 function remove () {
         echo -e "Wait few second"
