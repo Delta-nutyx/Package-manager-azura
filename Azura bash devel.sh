@@ -14,10 +14,6 @@
 # Function help
 function help () {
         echo -e " azura compile : compile a software from its pkgfile "
-        echo -e " azura remove : remove the package "
-        echo -e " azura info : show the information about the package "
-	echo -e "azura sync : a page with some informations about packages available"
-	echo -e "If you want to have more information about this pm, please execute 'azura about' or read the documentation (not available for the moment)"
 }
 
 
@@ -28,56 +24,31 @@ function compile () {
         if [[$? = 1]]
               mkdir /var/cache/azura
         rm -rf /var/cache/azura/*
+        read -p "Comment s'appelle votre paquet" name
+        echo $name
+        read -p "Donnez-nous le nom de votre pkgfile" $fichier
+        echo $fichier 
         # Nous allons copier votre pkgfile dans notre fichier de build
         cp $fichier /var/cache/azura
+        mv $chemin PKGBUILD 
         # Nous procédons à la compilation de votre paquet
         pkgmk -d $name
         pkgadd $name
         if [[$? = 1]]
-	      cards install cards.devel
+              cards install cards.devel      
         fi
         pkgmk -d $name
         pkgadd $name
 }
-# Remove a package
-function remove () {
-        echo -e "Wait few second"
-        read -r -p "Are you sure to want to continue ? O/N" reponse
-        case ${reponse} in
-       [oO][uU][iI]|[oO])
-              echo -e " Please wait few second "
-              cards remove $name
-              exit
-              ;;
-        [nN][oO][nN]|[nN])
-               echo -e "Annulation"
-               exit
-               ;;
-         *)
-               echo "Sorry we didn't understand your answer, please launch the command again"
-               exit
-                ;;
-
-# ferme le case
-         esac
-}
-
-# Show information about the package
-function info () {
-        echo -e " Please try to read the Azura database, execute this command ...... "
-}
-# Search a package in the NCR
-function search () {
 
 
-}
 
 # Function main
 function main () {
 # Si l'user tape compile, lance la commande compile
-        if [ "$OPT_MODE" = "compile $fichier $name" ]; then
-			compile
-        if
+        if [[ "$OPT_MODE" = "compile $fichier $name" ]]; then
+                        compile
+        fi
 # Si rien n'est tapé afficher l'aide
 	if [[ $# = 0 ]];then
 		help
@@ -85,18 +56,13 @@ function main () {
 
 # Si l'user tape help, affiche l'aide
         if [ "$OPT_MODE" = "help" ]; then
-	        help
+                        help 
         fi
 
-# Data sync
-
-	if [ "$OPT_MODE" = "sync" ]; then
-		database-sync
-	fi
 
 }
 # Le main @$ après la fermeture de la fonction sinon elle ne s'arrete pas
-main @$
+main "@$"
 
 # End of Azura code.
 # Thanks to all the contributors
