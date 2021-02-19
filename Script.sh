@@ -10,6 +10,6 @@ function main () {
                install 
        fi
 } 
-main "@$" 
+main "$@" 
             
           
