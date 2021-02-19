@@ -1,4 +1,4 @@
-#Bash 
+#!/usr/bin/env sh
 
 OPT_MODE=$1
 function install () {
