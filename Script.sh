@@ -6,8 +6,8 @@ function install () {
 }
 
 function main () {
-       if [[ "OPT_MODE" = "-d" ]];then
-                     install 
+       if [[ "$OPT_MODE" = "-d" ]];then
+               install 
        fi
 } 
 main "@$" 
