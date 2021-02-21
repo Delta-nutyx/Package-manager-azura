@@ -5,7 +5,7 @@
 #3ème partie : function compile 
 
 
-OPT_MODE=$1 
+
 
 # Add a package from the NCR
 function compile () {
@@ -40,8 +40,9 @@ function compile () {
 # Function main
 function main () {
 # Si l'user tape compile, lance la commande compile
-        if [[ "$OPT_MODE" = "compile" ]];then
-                        compile
+        if [[ "$1" = "compile" ]];then
+                compile
+                        
         fi
 }
 # Le main @$ après la fermeture de la fonction sinon elle ne s'arrete pas
